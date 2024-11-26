@@ -1,0 +1,6 @@
+requests-html==0.10.0
+secure-smtplib==0.1.1
+email-to==0.1.0
+python-dotenv==1.0.1
+discordwebhook==1.0.3
+requests==2.31.0
