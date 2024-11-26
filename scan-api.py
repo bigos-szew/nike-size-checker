@@ -38,7 +38,7 @@ def main():
             data = response.json()
             for obj in data["objects"]:
                 if obj["gtin"] == gtin:
-                    if not obj["available"]:
+                    if obj["available"]:
                         logger.info('available!!!')
                         send_mail('Shoe available!!!!!',
                                   PAGE_URL, NOTIFICATION_RECEIVER)

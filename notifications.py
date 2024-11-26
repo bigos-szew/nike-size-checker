@@ -33,7 +33,7 @@ def send_mail(subject, body, to):
 
 
 def send_discord_message(message):
-    logger.info('sending email')
+    logger.info('sending discord message')
     try:
         discord = Discord(url=config["DISCORD_WEBHOOK"])
         discord.post(content=message)
