@@ -3,4 +3,4 @@ secure-smtplib==0.1.1
 email-to==0.1.0
 discordwebhook==1.0.3
 requests==2.32.3
-pydantic-settings
+pydantic-settings==2.6.1
